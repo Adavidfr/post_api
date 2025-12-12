@@ -1,0 +1,64 @@
+# ─────────────────────────────
+# Node.js
+# ─────────────────────────────
+
+# Dependencias
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Builds
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.test
+.env.production
+.env.development
+
+# PM2
+.pids
+pm2.log
+pids.log
+
+# Coverage (Jest, nyc)
+coverage/
+.nyc_output/
+
+# Prisma
+prisma/*.db
+prisma/migrations/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Docker
+docker-data/
