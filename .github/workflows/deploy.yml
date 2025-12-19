@@ -28,7 +28,7 @@ jobs:
         username: ${{ secrets.VPS_USER }}
         key: ${{ secrets.VPS_KEY }}
         script: |
-          cd /root/nestjs-blog-backend
+          cd /opt/post_api
           
           # Matar el proceso que está usando el puerto 3000
           echo "Matar proceso en el puerto 3000..."
